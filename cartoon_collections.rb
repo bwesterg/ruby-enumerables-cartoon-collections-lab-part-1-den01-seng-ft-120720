@@ -17,11 +17,12 @@ def list_dwarves(array)
 #  hash = Hash.new
 # %w(cat dog wombat).each_with_index { |item, index|
 #  hash[item] = index
-}
+#}
 
   
-
-  array.each_with_index do |string, index|
+hash = Hash.new
+  array.each_with_index { |string, index|
+   hash[string] = index}
         puts (index + 1) + string
     end
 
