@@ -18,8 +18,7 @@ def list_dwarves(array)
 
   
 
-  array.each_with_index do { |string|, index|
-}
+  array.each_with_index do |string, index|
         puts index + string
     end
 
