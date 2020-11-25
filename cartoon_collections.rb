@@ -17,9 +17,9 @@ def list_dwarves(array)
   
 
   
-  hash = Hash.new
+
   array.each_with_index do { |string|, index|
-   hash[string] = index}
+}
         puts index + string
     end
 
