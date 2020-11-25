@@ -15,15 +15,16 @@ def list_dwarves(array)
   #
   # Print a numbered list of each element
   
-  hash = Hash.new
-%w(cat dog wombat).each_with_index { |string, index|
-  hash[string] = index
+#  hash = Hash.new
+# %w(cat dog wombat).each_with_index { |string, index|
+ # hash[string] = index
   
   hash = Hash.new
   %w(array).each_with_index{ |string, index| 
-  hash[item]
+  hash[item]}
   
-    array.each_with_index do |string|
+  hash = Hash.new
+  %warray.each_with_index do |string|
         puts string
     end
 
