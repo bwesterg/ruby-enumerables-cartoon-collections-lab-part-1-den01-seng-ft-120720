@@ -20,8 +20,8 @@ def list_dwarves(array)
  # hash[string] = index
   
   hash = Hash.new
-  %w(array).each_with_index{ |string, index| 
-  hash[item]}
+  array.each_with_index{ |string, index| 
+  hash[string]}
   
   hash = Hash.new
   %warray.each_with_index do |string|
